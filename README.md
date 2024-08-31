@@ -1,4 +1,4 @@
-#Starknet Counter
+# Starknet Counter
 This is an onboarding project in Cairo Language to new Starknet smart contract developers.
 
 ## Environment
