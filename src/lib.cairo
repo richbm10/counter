@@ -19,7 +19,7 @@ mod CounterContract {
     #[abi(embed_v0)]
     impl CounterContract of super::ICounterContract<ContractState> {
         fn get_counter(self: @ContractState) -> u32 {
-            self.counter.read();
+            self.counter.read()
         }
 
         fn increase_counter(ref self: ContractState) {
